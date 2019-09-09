@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "aula08.css",
+	"sources": [
+		"../sass/aula08.scss",
+		"../sass/aula08meusmixins.scss"
+	],
+	"sourcesContent": [
+		"@import \"aula08meusmixins.scss\";\r\n\r\n.noticia {\r\n    background:green; \r\n    border:2px solid red;\r\n    @include borda-redonda;\r\n}\r\n.headline {\r\n    font: {\r\n        size:14px;\r\n        family: arial;\r\n\r\n    }\r\n    @include borda-redonda;\r\n}\r\na{\r\n    @include link-colors(blue,red,green)\r\n}\r\na{\r\n    @include link-colors2(blue)\r\n}\r\n",
+		"@mixin borda-redonda{\r\n    -moz-border-radius:5px;\r\n    -webkit-webkit: border radius 5px;\r\n    -moz-webkit: border radius 5px;\r\n    -ms-webkit: border radius 5px;\r\n    -o-webkit: border radius 5px;\r\n    webkit: border radius 5px;}\r\n\r\n\r\n@mixin link-colors($normal, $hover, $visited){\r\ncolor:$normal;\r\n&:hover{color:$hover;}//O & SERVE PARA CONCATENAÇÃO\r\n&:visited{color:$visited;}\r\n}\r\n@mixin link-colors2($normal, $hover:$normal, $visited:$normal){\r\ncolor:$normal;\r\n&:hover{color:$hover;}//O & SERVE PARA CONCATENAÇÃO\r\n&:visited{color:$visited;}\r\n}\r\n    "
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,QAAQ,CAAC;EACL,UAAU,EAAC,KAAK;EAChB,MAAM,EAAC,aAAa;ECHpB,kBAAkB,EAAC,GAAG;EACtB,cAAc,EAAE,iBAAiB;EACjC,WAAW,EAAE,iBAAiB;EAC9B,UAAU,EAAE,iBAAiB;EAC7B,SAAS,EAAE,iBAAiB;EAC5B,MAAM,EAAE,iBAAiB;CDA5B;;;AACD,AAAA,SAAS,CAAC;EAEF,SAAI,EAAC,IAAI;EACT,WAAM,EAAE,KAAK;ECTjB,kBAAkB,EAAC,GAAG;EACtB,cAAc,EAAE,iBAAiB;EACjC,WAAW,EAAE,iBAAiB;EAC9B,UAAU,EAAE,iBAAiB;EAC7B,SAAS,EAAE,iBAAiB;EAC5B,MAAM,EAAE,iBAAiB;CDQ5B;;;AACD,AAAA,CAAC,CAAA;ECLD,KAAK,EDMoB,IAAI;CAC5B;;;AAFD,ACJA,CDIC,ACJA,MAAM,CAAA;EAAC,KAAK,EDKiB,GAAG;CCLV;;;ADIvB,ACHA,CDGC,ACHA,QAAQ,CAAA;EAAC,KAAK,EDImB,KAAK;CCJZ;;;ADM3B,AAAA,CAAC,CAAA;ECHD,KAAK,EDIqB,IAAI;CAC7B;;;AAFD,ACFA,CDEC,ACFA,MAAM,CAAA;EAAC,KAAK,EDGa,IAAI;CCHP;;;ADEvB,ACDA,CDCC,ACDA,QAAQ,CAAA;EAAC,KAAK,EDEW,IAAI;CCFH"
+}

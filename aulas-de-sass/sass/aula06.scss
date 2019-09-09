@@ -1,0 +1,28 @@
+nav{
+    border: {
+        style:solid;
+        width:1px;
+        color:#ccc;
+        left:0px;
+        right:0px;
+    }
+    ul{
+        margin:0;
+        padding:0;
+        list-style: none;
+        font: {
+            family:arial,"sans-serif";
+            size:15pt;
+            weight:bolder;
+        }
+    }
+    li{
+        display:inline-block;
+
+    }
+    a{
+        display:block;
+        padding:6px 12px;
+        text-decoration: none;
+    }
+}

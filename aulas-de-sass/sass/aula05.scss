@@ -1,0 +1,30 @@
+$highlight-color:#abcdef;
+$highlight-border:1px $highlight-color solid;
+$width:300px;
+$base-color:#fff;
+$background-color:#abcdef;
+$cor-vermelha:red;
+$cor-amarela:yellow;
+$cor-verde:green;
+$cor_branca:white;
+.vermelho{
+    color: $cor-vermelha;
+}
+.amarelo{
+    color:$cor-amarela;
+}
+.verde{
+    color:$cor-verde;
+}
+.branco{
+    color:$cor-branca;
+}
+.selected{
+    border:$highlight-border;
+}
+.error{
+    color:$base-color;
+    background-color:$background-color;
+    width:$width;
+    border:1px $highlight-color;
+}

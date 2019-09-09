@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "aula05.css",
+	"sources": [
+		"../sass/aula05.scss"
+	],
+	"sourcesContent": [
+		"$highlight-color:#abcdef;\r\n$highlight-border:1px $highlight-color solid;\r\n$width:300px;\r\n$base-color:#fff;\r\n$background-color:#abcdef;\r\n$cor-vermelha:red;\r\n$cor-amarela:yellow;\r\n$cor-verde:green;\r\n$cor_branca:white;\r\n.vermelho{\r\n    color: $cor-vermelha;\r\n}\r\n.amarelo{\r\n    color:$cor-amarela;\r\n}\r\n.verde{\r\n    color:$cor-verde;\r\n}\r\n.branco{\r\n    color:$cor-branca;\r\n}\r\n.selected{\r\n    border:$highlight-border;\r\n}\r\n.error{\r\n    color:$base-color;\r\n    background-color:$background-color;\r\n    width:$width;\r\n    border:1px $highlight-color;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AASA,AAAA,SAAS,CAAA;EACL,KAAK,EALK,GAAG;CAMhB;;;AACD,AAAA,QAAQ,CAAA;EACJ,KAAK,EAPI,MAAM;CAQlB;;;AACD,AAAA,MAAM,CAAA;EACF,KAAK,EATE,KAAK;CAUf;;;AACD,AAAA,OAAO,CAAA;EACH,KAAK,EAXG,KAAK;CAYhB;;;AACD,AAAA,SAAS,CAAA;EACL,MAAM,EArBQ,GAAG,CADJ,OAAO,CACe,KAAK;CAsB3C;;;AACD,AAAA,MAAM,CAAA;EACF,KAAK,EAtBG,IAAI;EAuBZ,gBAAgB,EAtBF,OAAO;EAuBrB,KAAK,EAzBF,KAAK;EA0BR,MAAM,EAAC,GAAG,CA5BG,OAAO;CA6BvB"
+}

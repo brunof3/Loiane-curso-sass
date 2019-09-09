@@ -1,0 +1,26 @@
+.vermelho {
+  color: red;
+}
+
+.amarelo {
+  color: yellow;
+}
+
+.verde {
+  color: green;
+}
+
+.branco {
+  color: white;
+}
+
+.selected {
+  border: 1px #abcdef solid;
+}
+
+.error {
+  color: #fff;
+  background-color: #abcdef;
+  width: 300px;
+  border: 1px #abcdef;
+}

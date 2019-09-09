@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "aula09.css",
+	"sources": [
+		"../sass/aula09.scss"
+	],
+	"sourcesContent": [
+		".loud{\r\n    font-weight:bold;\r\n}\r\n.quiet{\r\n    font-weight:lighter;\r\n}\r\n.angry{\r\n    @extend .loud;\r\n    color:red;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,KAAK,EAML,MAAM,CAND;EACD,WAAW,EAAC,IAAI;CACnB;;;AACD,AAAA,MAAM,CAAA;EACF,WAAW,EAAC,OAAO;CACtB;;;AACD,AAAA,MAAM,CAAA;EAEF,KAAK,EAAC,GAAG;CACZ"
+}

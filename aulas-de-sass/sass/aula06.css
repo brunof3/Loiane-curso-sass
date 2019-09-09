@@ -1,0 +1,26 @@
+nav {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: arial,"sans-serif";
+  font-size: 15pt;
+  font-weight: bolder;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}

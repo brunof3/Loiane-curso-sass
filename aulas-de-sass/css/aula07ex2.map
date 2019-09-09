@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "aula07ex2.css",
+	"sources": [
+		"../sass/aula07ex2.scss"
+	],
+	"sourcesContent": [
+		"\r\naside{\r\n    background:blue;\r\n    color:white;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,KAAK,CAAA;EACD,UAAU,EAAC,IAAI;EACf,KAAK,EAAC,KAAK;CACd"
+}

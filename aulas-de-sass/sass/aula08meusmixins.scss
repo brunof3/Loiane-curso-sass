@@ -1,0 +1,20 @@
+@mixin borda-redonda{
+    -moz-border-radius:5px;
+    -webkit-webkit: border radius 5px;
+    -moz-webkit: border radius 5px;
+    -ms-webkit: border radius 5px;
+    -o-webkit: border radius 5px;
+    webkit: border radius 5px;}
+
+
+@mixin link-colors($normal, $hover, $visited){
+color:$normal;
+&:hover{color:$hover;}//O & SERVE PARA CONCATENAÇÃO
+&:visited{color:$visited;}
+}
+@mixin link-colors2($normal, $hover:$normal, $visited:$normal){
+color:$normal;
+&:hover{color:$hover;}//O & SERVE PARA CONCATENAÇÃO
+&:visited{color:$visited;}
+}
+    

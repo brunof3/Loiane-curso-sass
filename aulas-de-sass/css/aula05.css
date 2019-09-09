@@ -1,0 +1,34 @@
+/* line 10, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula05.scss */
+.vermelho {
+  color: red;
+}
+
+/* line 13, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula05.scss */
+.amarelo {
+  color: yellow;
+}
+
+/* line 16, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula05.scss */
+.verde {
+  color: green;
+}
+
+/* line 19, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula05.scss */
+.branco {
+  color: white;
+}
+
+/* line 22, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula05.scss */
+.selected {
+  border: 1px #abcdef solid;
+}
+
+/* line 25, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula05.scss */
+.error {
+  color: #fff;
+  background-color: #abcdef;
+  width: 300px;
+  border: 1px #abcdef;
+}
+
+/*# sourceMappingURL=aula05.css.map */

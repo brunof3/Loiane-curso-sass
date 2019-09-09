@@ -1,0 +1,55 @@
+/* line 3, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula08.scss */
+.noticia {
+  background: green;
+  border: 2px solid red;
+  -moz-border-radius: 5px;
+  -webkit-webkit: border radius 5px;
+  -moz-webkit: border radius 5px;
+  -ms-webkit: border radius 5px;
+  -o-webkit: border radius 5px;
+  webkit: border radius 5px;
+}
+
+/* line 8, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula08.scss */
+.headline {
+  font-size: 14px;
+  font-family: arial;
+  -moz-border-radius: 5px;
+  -webkit-webkit: border radius 5px;
+  -moz-webkit: border radius 5px;
+  -ms-webkit: border radius 5px;
+  -o-webkit: border radius 5px;
+  webkit: border radius 5px;
+}
+
+/* line 16, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula08.scss */
+a {
+  color: blue;
+}
+
+/* line 12, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula08meusmixins.scss */
+a:hover {
+  color: red;
+}
+
+/* line 13, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula08meusmixins.scss */
+a:visited {
+  color: green;
+}
+
+/* line 19, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula08.scss */
+a {
+  color: blue;
+}
+
+/* line 17, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula08meusmixins.scss */
+a:hover {
+  color: blue;
+}
+
+/* line 18, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula08meusmixins.scss */
+a:visited {
+  color: blue;
+}
+
+/*# sourceMappingURL=aula08.css.map */

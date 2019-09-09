@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "aula08meusmixins.css",
+	"sources": [
+		"../sass/aula08meusmixins.scss"
+	],
+	"sourcesContent": [
+		"@mixin borda-redonda{\r\n    -moz-border-radius:5px;\r\n    -webkit-webkit: border radius 5px;\r\n    -moz-webkit: border radius 5px;\r\n    -ms-webkit: border radius 5px;\r\n    -o-webkit: border radius 5px;\r\n    webkit: border radius 5px;}\r\n\r\n\r\n@mixin link-colors($normal, $hover, $visited){\r\ncolor:$normal;\r\n&:hover{color:$hover;}//O & SERVE PARA CONCATENAÇÃO\r\n&:visited{color:$visited;}\r\n}\r\n@mixin link-colors2($normal, $hover:$normal, $visited:$normal){\r\ncolor:$normal;\r\n&:hover{color:$hover;}//O & SERVE PARA CONCATENAÇÃO\r\n&:visited{color:$visited;}\r\n}\r\n    "
+	],
+	"names": [],
+	"mappings": ""
+}

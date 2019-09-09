@@ -1,0 +1,16 @@
+/* line 1, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula09.scss */
+.loud, .angry {
+  font-weight: bold;
+}
+
+/* line 4, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula09.scss */
+.quiet {
+  font-weight: lighter;
+}
+
+/* line 7, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula09.scss */
+.angry {
+  color: red;
+}
+
+/*# sourceMappingURL=aula09.css.map */

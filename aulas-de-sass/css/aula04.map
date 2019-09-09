@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "aula04.css",
+	"sources": [
+		"../sass/aula04.scss"
+	],
+	"sourcesContent": [
+		".vermelho{\r\n    color:red;\r\n}\r\n.yellow{\r\n    color:yellow;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,SAAS,CAAA;EACL,KAAK,EAAC,GAAG;CACZ;;;AACD,AAAA,OAAO,CAAA;EACH,KAAK,EAAC,MAAM;CACf"
+}

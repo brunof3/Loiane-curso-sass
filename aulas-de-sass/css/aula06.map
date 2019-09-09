@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "aula06.css",
+	"sources": [
+		"../sass/aula06.scss"
+	],
+	"sourcesContent": [
+		"nav{\r\n    border: {\r\n        style:solid;\r\n        width:1px;\r\n        color:#ccc;\r\n        left:0px;\r\n        right:0px;\r\n    }\r\n    ul{\r\n        margin:0;\r\n        padding:0;\r\n        list-style: none;\r\n        font: {\r\n            family:arial,\"sans-serif\";\r\n            size:15pt;\r\n            weight:bolder;\r\n        }\r\n    }\r\n    li{\r\n        display:inline-block;\r\n\r\n    }\r\n    a{\r\n        display:block;\r\n        padding:6px 12px;\r\n        text-decoration: none;\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,GAAG,CAAA;EAEK,YAAK,EAAC,KAAK;EACX,YAAK,EAAC,GAAG;EACT,YAAK,EAAC,IAAI;EACV,WAAI,EAAC,GAAG;EACR,YAAK,EAAC,GAAG;CAqBhB;;;AA3BD,AAQI,GARD,CAQC,EAAE,CAAA;EACE,MAAM,EAAC,CAAC;EACR,OAAO,EAAC,CAAC;EACT,UAAU,EAAE,IAAI;EAEZ,WAAM,EAAC,kBAAkB;EACzB,SAAI,EAAC,IAAI;EACT,WAAM,EAAC,MAAM;CAEpB;;;AAjBL,AAkBI,GAlBD,CAkBC,EAAE,CAAA;EACE,OAAO,EAAC,YAAY;CAEvB;;;AArBL,AAsBI,GAtBD,CAsBC,CAAC,CAAA;EACG,OAAO,EAAC,KAAK;EACb,OAAO,EAAC,QAAQ;EAChB,eAAe,EAAE,IAAI;CACxB"
+}

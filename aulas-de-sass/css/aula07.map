@@ -1,0 +1,22 @@
+{
+	"version": 3,
+	"file": "aula07.css",
+	"sources": [
+		"../sass/aula07.scss",
+		"../sass/aula03.scss",
+		"../sass/aula04.scss",
+		"../sass/aula05.scss",
+		"../sass/aula06.scss",
+		"../sass/aula07ex2.scss"
+	],
+	"sourcesContent": [
+		"@import \"aula03.scss\";\r\n@import \"aula04.scss\";\r\n@import \"aula05.scss\";\r\n@import \"aula06.scss\";\r\n.tema-azul{\r\n@import \"aula07ex2.scss\";\r\n}\r\n\r\n",
+		".vermelho{\r\n    color:red;\r\n}\r\n.azul{\r\n    color:blue;\r\n}",
+		".vermelho{\r\n    color:red;\r\n}\r\n.yellow{\r\n    color:yellow;\r\n}",
+		"$highlight-color:#abcdef;\r\n$highlight-border:1px $highlight-color solid;\r\n$width:300px;\r\n$base-color:#fff;\r\n$background-color:#abcdef;\r\n$cor-vermelha:red;\r\n$cor-amarela:yellow;\r\n$cor-verde:green;\r\n$cor_branca:white;\r\n.vermelho{\r\n    color: $cor-vermelha;\r\n}\r\n.amarelo{\r\n    color:$cor-amarela;\r\n}\r\n.verde{\r\n    color:$cor-verde;\r\n}\r\n.branco{\r\n    color:$cor-branca;\r\n}\r\n.selected{\r\n    border:$highlight-border;\r\n}\r\n.error{\r\n    color:$base-color;\r\n    background-color:$background-color;\r\n    width:$width;\r\n    border:1px $highlight-color;\r\n}",
+		"nav{\r\n    border: {\r\n        style:solid;\r\n        width:1px;\r\n        color:#ccc;\r\n        left:0px;\r\n        right:0px;\r\n    }\r\n    ul{\r\n        margin:0;\r\n        padding:0;\r\n        list-style: none;\r\n        font: {\r\n            family:arial,\"sans-serif\";\r\n            size:15pt;\r\n            weight:bolder;\r\n        }\r\n    }\r\n    li{\r\n        display:inline-block;\r\n\r\n    }\r\n    a{\r\n        display:block;\r\n        padding:6px 12px;\r\n        text-decoration: none;\r\n    }\r\n}",
+		"\r\naside{\r\n    background:blue;\r\n    color:white;\r\n}"
+	],
+	"names": [],
+	"mappings": ";ACAA,AAAA,SAAS,CAAA;EACL,KAAK,EAAC,GAAG;CACZ;;;AACD,AAAA,KAAK,CAAA;EACD,KAAK,EAAC,IAAI;CACb;;;ACLD,AAAA,SAAS,CAAA;EACL,KAAK,EAAC,GAAG;CACZ;;;AACD,AAAA,OAAO,CAAA;EACH,KAAK,EAAC,MAAM;CACf;;;ACID,AAAA,SAAS,CAAA;EACL,KAAK,EALK,GAAG;CAMhB;;;AACD,AAAA,QAAQ,CAAA;EACJ,KAAK,EAPI,MAAM;CAQlB;;;AACD,AAAA,MAAM,CAAA;EACF,KAAK,EATE,KAAK;CAUf;;;AACD,AAAA,OAAO,CAAA;EACH,KAAK,EAXG,KAAK;CAYhB;;;AACD,AAAA,SAAS,CAAA;EACL,MAAM,EArBQ,GAAG,CADJ,OAAO,CACe,KAAK;CAsB3C;;;AACD,AAAA,MAAM,CAAA;EACF,KAAK,EAtBG,IAAI;EAuBZ,gBAAgB,EAtBF,OAAO;EAuBrB,KAAK,EAzBF,KAAK;EA0BR,MAAM,EAAC,GAAG,CA5BG,OAAO;CA6BvB;;;AC7BD,AAAA,GAAG,CAAA;EAEK,YAAK,EAAC,KAAK;EACX,YAAK,EAAC,GAAG;EACT,YAAK,EAAC,IAAI;EACV,WAAI,EAAC,GAAG;EACR,YAAK,EAAC,GAAG;CAqBhB;;;AA3BD,AAQI,GARD,CAQC,EAAE,CAAA;EACE,MAAM,EAAC,CAAC;EACR,OAAO,EAAC,CAAC;EACT,UAAU,EAAE,IAAI;EAEZ,WAAM,EAAC,kBAAkB;EACzB,SAAI,EAAC,IAAI;EACT,WAAM,EAAC,MAAM;CAEpB;;;AAjBL,AAkBI,GAlBD,CAkBC,EAAE,CAAA;EACE,OAAO,EAAC,YAAY;CAEvB;;;AArBL,AAsBI,GAtBD,CAsBC,CAAC,CAAA;EACG,OAAO,EAAC,KAAK;EACb,OAAO,EAAC,QAAQ;EAChB,eAAe,EAAE,IAAI;CACxB;;;AJtBL,AKHA,ULGU,CKHV,KAAK,CAAA;EACD,UAAU,EAAC,IAAI;EACf,KAAK,EAAC,KAAK;CACd"
+}

@@ -1,0 +1,21 @@
+@import "aula08meusmixins.scss";
+
+.noticia {
+    background:green; 
+    border:2px solid red;
+    @include borda-redonda;
+}
+.headline {
+    font: {
+        size:14px;
+        family: arial;
+
+    }
+    @include borda-redonda;
+}
+a{
+    @include link-colors(blue,red,green)
+}
+a{
+    @include link-colors2(blue)
+}

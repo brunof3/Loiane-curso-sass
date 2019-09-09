@@ -1,0 +1,91 @@
+/* line 1, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula03.scss */
+.vermelho {
+  color: red;
+}
+
+/* line 4, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula03.scss */
+.azul {
+  color: blue;
+}
+
+/* line 1, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula04.scss */
+.vermelho {
+  color: red;
+}
+
+/* line 4, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula04.scss */
+.yellow {
+  color: yellow;
+}
+
+/* line 10, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula05.scss */
+.vermelho {
+  color: red;
+}
+
+/* line 13, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula05.scss */
+.amarelo {
+  color: yellow;
+}
+
+/* line 16, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula05.scss */
+.verde {
+  color: green;
+}
+
+/* line 19, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula05.scss */
+.branco {
+  color: white;
+}
+
+/* line 22, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula05.scss */
+.selected {
+  border: 1px #abcdef solid;
+}
+
+/* line 25, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula05.scss */
+.error {
+  color: #fff;
+  background-color: #abcdef;
+  width: 300px;
+  border: 1px #abcdef;
+}
+
+/* line 1, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula06.scss */
+nav {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+/* line 9, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula06.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: arial,"sans-serif";
+  font-size: 15pt;
+  font-weight: bolder;
+}
+
+/* line 19, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula06.scss */
+nav li {
+  display: inline-block;
+}
+
+/* line 23, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula06.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/* line 2, ../../../../../Videos/Loiane-curso/aulas-de-sass/sass/aula07ex2.scss */
+.tema-azul aside {
+  background: blue;
+  color: white;
+}
+
+/*# sourceMappingURL=aula07.css.map */
